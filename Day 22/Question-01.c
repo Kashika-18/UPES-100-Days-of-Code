@@ -20,6 +20,7 @@ int main() {
     printf("Enter a number = ");
     scanf("%d", &n);
 
+    // armstrong number is a number which is the sum of the factorials of the digits
     original = n;
     while (n>0) {
         rem = n%10;
